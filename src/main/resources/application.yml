@@ -1,0 +1,11 @@
+kafka:
+  bootstrap-server: ${BOOTSTRAP-SERVER}
+  topic: ${TOPIC-NAME}
+  consumer:
+    group-id: test-group-id
+    ssl:
+      truststore-location: ${TRUSTSTORE-LOCATION}
+      truststore-password: ${TRUSTSTORE-PASSWORD}
+      keystore-location: ${KEYSTORE-LOCATION}
+      key-password: ${KEY-PASSWORD}
+      keystore-password: ${KEYSTORE-PASSWORD}
